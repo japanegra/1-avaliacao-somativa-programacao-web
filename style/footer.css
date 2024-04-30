@@ -1,0 +1,59 @@
+/* FOOTER DE TODAS AS PAGINAS */
+.footer_links {
+    height: auto;
+    background-color: var(--cor-do-cabeçalho);
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+
+}
+
+.footer_links_subtitulo {
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    color: var(--branco);
+    margin-bottom: 10px;
+}
+
+.footer_links_navegacao {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--branco);
+    border: 2px solid var(--cor-do-cabeçalho);
+    padding: 21px 0px;
+    border-radius: 13px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.footer_links_navegacao_imagem {
+    width: 45px;
+    margin-bottom: -14px;
+}
+.footer_links_navegacao:hover {
+    color: #1a0ec2;
+    border-radius: 15px;
+    transition: color 0.3s ease;
+}
+
+.footer_imagem {
+    border-radius: 10%;
+    max-width: 25%;
+    height: auto;
+}
+
+.footer_imagem_conteudo {
+    font-family: var(--fonte-principal);
+    font-size: 1.5rem;
+    color: var(--branco);
+    margin-bottom: 10px;
+}
+
+.saiba_mais {
+    font-size: 1.1rem;
+    font-family: var(--fonte-principal);
+    color: var(--cor-do-cabeçalho);
+    text-decoration: none;
+}

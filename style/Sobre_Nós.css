@@ -1,0 +1,165 @@
+/* SOBRE MIM */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.box-area {
+    background-color: var(--branco);
+    width: 800px; 
+    margin-top: 5%;
+    border: 2px solid var(--branco); 
+    border-radius: 30px; 
+    padding: 20px; 
+    text-align: center; 
+    box-shadow: 20px 20px 30px rgba(43, 71, 230, 0.1);
+}
+
+
+.imagem {
+    width: 250px; 
+    height: 300px; 
+    overflow: hidden;
+    border-radius: 10%; 
+    margin: 0 auto 20px;
+}
+
+.imagem img {
+    width: 100%; 
+    height: auto; 
+    border-radius: 40%; 
+}
+
+.box-area h3 {
+    color: var(--preto); 
+    font-size: 1.6rem; 
+    margin-top: -30px; 
+}
+
+.box-area p {
+    color: var(--preto); 
+    font-size: 1.25rem; 
+}
+
+/* FIM SOBRE MIM */
+
+.Skills {
+    text-align: center;
+    color: var(--branco);
+}
+
+/* CARD HARD SKILLS */
+.container_hard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    margin-left: 20px;
+    display: inline-block;
+    background-color: var(--branco);
+    font-size: 1.3rem; 
+    border: 2px solid white; 
+    border-radius: 30px; 
+    padding: 15px; 
+    text-align: center; 
+    box-shadow: 20px 20px 30px rgba(43, 71, 230, 0.1);
+  }
+  .card img {
+    width: 220px;
+    height: 140px;
+    border-radius: 30px;
+    
+  }
+  .card_body {
+    padding: 20px;
+  }
+  .card_title {
+    color: var(--preto);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .card_text {
+    color: var(--preto);
+    margin-bottom: 15px;
+  }
+/* FIM CARD HARD SKILLS */
+
+
+/* CARD SOFT SKILLS */
+.container_soft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    margin-left: 20px;
+    display: inline-block;
+    background-color: var(--branco);
+    font-size: 1.3rem; 
+    margin-top: 2%;
+    border: 2px solid white; 
+    border-radius: 30px; 
+    padding: 15px; 
+    text-align: center; 
+    box-shadow: 20px 20px 30px rgba(43, 71, 230, 0.1);
+    width: 100%;
+  }
+  .card img {
+    width: 220px;
+    height: 140px;
+    border-radius: 30px;
+    
+  }
+  .card_body {
+    padding: 20px;
+    
+    
+  }
+  .card_title {
+    color: var(--preto);
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  .card_text {
+    color: var(--preto);
+    margin-bottom: 15px;
+  }
+  /* FIM CARD SOFT SKILLS */
+
+
+  /* INTERESSES PROFISSIONAIS */
+.interesses {
+    text-align: center;
+    color: var(--branco);
+}
+
+  .container_profissional {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.box-area_profissional {
+    background-color: var(--branco);
+    width: 900px; 
+    margin-top: 2%;
+    border: 2px solid white; 
+    border-radius: 30px; 
+    padding: 20px; 
+    text-align: center; 
+    box-shadow: 20px 20px 30px rgba(43, 71, 230, 0.1);
+}
+
+.interesses_text {
+    color: var(--preto);
+    font-size: 1.1rem;
+}
+ /* FIM INTERESSES PROFISSIONAIS */

@@ -1,0 +1,24 @@
+:root {
+    --cor-de-fundo: #333333;
+    --cor-do-cabeçalho: #4c4cff;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --fonte-principal: 'Russo One', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);
+    color: var(--cor-de-fundo);
+    line-height: 1.6;
+}
+
+

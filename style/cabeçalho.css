@@ -1,0 +1,38 @@
+/* Cabeçalho */
+.cabecalho {
+    height: auto;
+    background-color: var(--cor-do-cabeçalho);
+    padding: 20px 0;
+    text-align: center;
+}
+
+.cabecalho__marca__logo {
+    width: 100px;
+}
+
+.cabecalho__marca__nome {
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    color: var(--branco);
+    margin-top: 10px;
+}
+
+.cabecalho__menu {
+    margin-top: 20px;
+}
+
+.cabecalho__menu__link {
+    display: inline-block;
+    font-size: 1.2rem;
+    color: var(--branco);
+    text-decoration: none;
+    border: 2px solid #F6F6F6;
+    padding: 21px 20px;
+    border-radius: 25px;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+}
+
+.cabecalho__menu__link:hover {
+    color: var(--preto);
+}
